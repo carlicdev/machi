@@ -1,0 +1,65 @@
+:root {
+  --turquoiseBlue: #34f6f2;
+  --electricBlue: #e7f1f3;
+  --lightCyan: #d1f5ff;
+  --aliceBlue: #eef8ff;
+  --majorelleBlue: #a2cae7;
+  --mainText: #5fa181;
+  --mainRed: #ee1616;
+}
+
+body {
+  background: var(--aliceBlue) !important;
+  text-align: center !important;
+  font-family: 'Srisakdi', cursive !important;
+  color: var(--mainText) !important;
+}
+
+.jumbotron {
+  background: var(--aliceBlue) !important;
+}
+
+.card {
+  background: var(--electricBlue) !important;
+  box-shadow:2px 2px 5px 0px rgba(0,0,0,0.2);
+  min-height: 16rem;
+  max-height: 16rem;
+}
+
+.cursive {
+  font-family: 'Montez', cursive !important;
+}
+.text-title {
+  font-family: 'Montez', cursive !important;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--majorelleBlue);
+}
+
+.blue-background {
+  background: var(--electricBlue);
+  box-shadow:2px 2px 5px 0px rgba(0,0,0,0.2);
+}
+
+li {
+  list-style: none;
+}
+
+strong {
+  font-family: 'Montez', cursive !important;
+}
+
+h3 {
+  color: var(--mainText) !important;
+}
+
+.img-container2 {
+  max-height: 15rem !important;
+}
+
+.img-modal {
+  max-height: 15rem !important;
+}
